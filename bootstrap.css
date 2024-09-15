@@ -1,0 +1,1378 @@
+/* for medium screens */
+
+@media screen and (min-width:501px) and (max-width:1400px) {
+     ::-webkit-scrollbar {
+        width: 15px;
+        height: 80px;
+    }
+     ::-webkit-scrollbar-track {
+        background: #535353;
+    }
+     ::-webkit-scrollbar-thumb {
+        background: #212529;
+    }
+    body {
+        margin: 0;
+        font-family: sans-serif;
+        background-image: url(https://bootstrapmade.com/demo/templates/Day/assets/img/hero-bg.jpg);
+        background-position: center;
+        background-attachment: fixed;
+    }
+    /* header */
+    div.header {
+        background-color: #191919;
+        padding: 2px;
+        margin-bottom: 0;
+    }
+    div.header ul {
+        display: flex;
+        margin: 10px 0px;
+    }
+    div.header ul li {
+        list-style: none;
+    }
+    div.header ul li a {
+        text-decoration: none;
+        padding-left: 5px;
+        padding-right: 10px;
+        color: rgb(116, 116, 116);
+    }
+    div.header ul li svg {
+        padding-right: 10px;
+        color: rgb(199, 30, 30);
+    }
+    div.header ul li p {
+        color: rgb(116, 116, 116);
+        display: inline;
+    }
+    div.socialmedia {
+        margin-left: 770px;
+    }
+    div.socialmedia li {
+        display: inline;
+    }
+    div.socialmedia svg.social {
+        color: rgb(116, 116, 116);
+    }
+    div.socialmedia svg.social:hover {
+        color: white;
+    }
+    /* navigation */
+    div.navigation {
+        background-color: rgba(25, 25, 25, 0.95);
+        margin-top: 0px;
+        position: sticky;
+        top: 0;
+        padding: 10px 0;
+        line-height: 40px;
+    }
+    div.navigation ul {
+        display: inline;
+    }
+    div.navigation ul li {
+        display: inline;
+        list-style: none;
+        text-transform: capitalize;
+    }
+    div.navigation ul li a {
+        text-decoration: none;
+        font-size: 22px;
+    }
+    div.navigation ul li select {
+        background-color: transparent;
+        border: none;
+        color: rgb(90, 90, 90);
+        font-size: 16px;
+        font-weight: 600;
+    }
+    div.navigation ul li select option {
+        background-color: white;
+        color: black;
+    }
+    div.navigation ul li select option:hover {
+        background-color: rgb(199, 30, 30);
+        transition: 0.3s;
+    }
+    div.navigation ul li select:hover {
+        background-color: rgb(199, 30, 30);
+        color: white;
+    }
+    div.navigation ul li select:first-child {
+        color: white;
+    }
+    a.logo {
+        font-size: 30px;
+        font-weight: 550;
+        color: white;
+    }
+    div.links {
+        display: inline;
+        margin-left: 250px;
+    }
+    div.links a {
+        padding: 20px;
+        font-size: 18px;
+        color: white;
+    }
+    div.links a.home {
+        background-color: rgb(199, 30, 30);
+        margin: 0;
+    }
+    div.links a:hover {
+        background-color: rgb(199, 30, 30);
+        transition: 0.4s;
+    }
+    div.links select {
+        font-size: 15px;
+        padding: 20px;
+    }
+    div.links select:hover {
+        background-color: rgb(199, 30, 30);
+        transition: 0.4s;
+    }
+    div.getstarted {
+        margin-top: 200px;
+        margin-bottom: 190px;
+    }
+    div.getstarted h1 {
+        color: white;
+        text-transform: uppercase;
+        margin-left: 60px;
+        margin-top: 130px;
+        font-size: 40px;
+    }
+    div.getstarted p {
+        margin-left: 65px;
+        font-size: 20px;
+        color: white;
+        font-weight: 700;
+    }
+    div.getstarted a {
+        margin-left: 60px;
+        border: 2px solid white;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+    div.getstarted a:hover {
+        background-color: rgb(199, 30, 30);
+        border: 2px solid rgb(199, 30, 30);
+        transition: 0.5s;
+    }
+    /* about */
+    div.about {
+        background-color: white;
+        padding: 40px;
+    }
+    div.about strong {
+        font-size: 25px;
+        color: rgb(80, 80, 80);
+    }
+    div.about p em {
+        color: rgb(131, 131, 131);
+        font-size: 19px;
+    }
+    div.about ul {
+        list-style: none;
+        color: rgb(131, 131, 131);
+        font-size: 19px;
+    }
+    div.about ul li svg {
+        color: rgb(199, 30, 30);
+    }
+    div.about p.para {
+        color: rgb(131, 131, 131);
+        font-size: 19px;
+    }
+    div.about img {
+        height: 400px;
+        float: right;
+    }
+    /* cards */
+    div.cards {
+        background-color: white;
+        padding: 70px;
+        display: flex;
+    }
+    div.cards div.card {
+        border: 1px solid white;
+        padding: 30px;
+        width: 250px;
+        margin: 40px;
+        box-shadow: 2px 2px 5px rgba(25, 25, 25, 0.45);
+    }
+    div.card p.number {
+        font-size: 20px;
+        font-weight: 800;
+        color: rgb(199, 30, 30);
+    }
+    div.card:hover p.number {
+        color: white;
+    }
+    div.card p.heading {
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
+    div.card:hover p.heading {
+        color: white;
+    }
+    div.card p.text {
+        color: rgb(131, 131, 131);
+    }
+    div.card:hover p.text {
+        color: white;
+    }
+    div.card:hover {
+        background-color: rgb(211, 56, 56);
+        transition: 0.4s;
+    }
+    div.images {
+        background-color: rgb(187, 187, 187);
+        padding-left: 50px;
+    }
+    div.images img {
+        height: 40px;
+        margin: 20px 0px 20px 80px;
+        opacity: 0.3;
+    }
+    div.images img:hover {
+        opacity: 1;
+        transition-duration: 0.4s;
+    }
+    div.break {
+        background-color: white;
+    }
+    /* services */
+    div.services {
+        background-color: white;
+        text-align: center;
+        padding: 50px;
+    }
+    div.services strong {
+        font-size: 35px;
+        text-transform: uppercase;
+        z-index: 1;
+    }
+    div.services p {
+        color: rgb(131, 131, 131);
+    }
+    div.servicecards {
+        background-color: white;
+    }
+    div.servicecards div.rowone {
+        display: flex;
+        margin-left: 50px;
+    }
+    div.rowone {
+        text-align: center;
+    }
+    div.rowone div.card {
+        border: 1px solid white;
+        width: 250px;
+        height: 160px;
+        margin-left: 43px;
+        padding: 50px;
+        box-shadow: 2px 2px 5px rgba(25, 25, 25, 0.45);
+    }
+    div.rowone div.card a {
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    div.rowone div.card svg {
+        background-color: rgb(199, 30, 30);
+        color: white;
+        height: 30px;
+        width: 30px;
+        padding: 10px;
+    }
+    div.rowone div.card p {
+        color: rgb(131, 131, 131);
+    }
+    div.rowone div.card:hover p {
+        color: white;
+    }
+    div.rowone div.card:hover a {
+        color: white;
+    }
+    div.servicecards div.rowtwo {
+        display: flex;
+        margin-left: 50px;
+    }
+    div.rowtwo {
+        text-align: center;
+        padding-top: 30px;
+    }
+    div.rowtwo div.card {
+        border: 1px solid white;
+        width: 250px;
+        height: 160px;
+        margin-left: 43px;
+        padding: 50px;
+        box-shadow: 2px 2px 5px rgba(25, 25, 25, 0.45);
+    }
+    div.rowtwo div.card:hover p {
+        color: white;
+    }
+    div.rowtwo div.card:hover a {
+        color: white;
+    }
+    div.rowtwo div.card a {
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    div.rowtwo div.card svg {
+        background-color: rgb(199, 30, 30);
+        color: white;
+        height: 30px;
+        width: 30px;
+        padding: 10px;
+    }
+    div.rowtwo div.card p {
+        color: rgb(131, 131, 131);
+    }
+    div.action {
+        padding: 60px;
+        text-align: center;
+    }
+    div.action h3 {
+        font-size: 30px;
+        color: white;
+    }
+    div.action p {
+        font-size: 16px;
+        color: white;
+    }
+    div.action a {
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 2px solid white;
+        font-size: 15px;
+        padding: 8px;
+        color: white;
+        font-weight: 600;
+    }
+    /* portfolio */
+    div.portfolio {
+        background-color: white;
+        text-align: center;
+        padding: 50px;
+    }
+    div.portfolio strong {
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+    div.portfolio p {
+        color: rgb(131, 131, 131);
+    }
+    div.portfolio ul {
+        list-style: none;
+    }
+    div.portfolio ul li {
+        display: inline;
+        padding: 5px;
+        font-weight: 600;
+        color: rgb(104, 104, 104);
+    }
+    div.portfolio ul li:first-child {
+        color: rgb(199, 30, 30);
+    }
+    div.portimg img.img1 {
+        height: 300px;
+        float: left;
+        margin: 30px;
+    }
+    div.portimg img.img2 {
+        height: 250px;
+        float: left;
+        margin: 30px 15px 15px 0px;
+    }
+    div.portimg img.img3 {
+        height: 190px;
+        margin: 30px 30px 15px 10px;
+    }
+    div.portimg img.img4 {
+        height: 350px;
+        float: right;
+        margin: 15px 30px 15px 15px;
+    }
+    div.portimg img.img5 {
+        height: 300px;
+        float: right;
+        margin: 15px 15px 15px 15px;
+    }
+    div.portimg img.img6 {
+        height: 450px;
+        float: left;
+        margin: 0px 15px 30px 15px;
+    }
+    div.portimg img.img7 {
+        height: 220px;
+        margin: 15px 30px 30px 15px;
+    }
+    div.portimg img.img8 {
+        height: 220px;
+        margin: 15px 30px 15px 15px;
+    }
+    /* pricing */
+    div.pricing {
+        background-color: white;
+        text-align: center;
+        padding: 50px;
+    }
+    div.pricing strong {
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+    div.pricing p {
+        color: rgb(131, 131, 131);
+    }
+    div.pricetags {
+        display: flex;
+    }
+    div.tags {
+        border: 1px solid rgb(247, 245, 245);
+        background-color: rgb(247, 245, 245);
+        padding: 20px 70px 70px 70px;
+        margin-left: 90px;
+        border-radius: 5px;
+    }
+    div.tag {
+        border: 1px solid rgb(199, 30, 30);
+        background-color: rgb(199, 30, 30);
+        padding: 20px 70px 20px 70px;
+        margin-left: 90px;
+        border-radius: 5px;
+    }
+    div.tags p.type {
+        font-size: 25px;
+    }
+    div.tags p sup {
+        color: rgb(199, 30, 30);
+        font-size: 20px;
+    }
+    div.tags p strong {
+        color: rgb(199, 30, 30);
+    }
+    div.tags a {
+        text-decoration: none;
+        color: white;
+        background-color: rgb(199, 30, 30);
+        padding: 10px 20px 10px 20px;
+    }
+    div.tags p del {
+        color: rgb(131, 131, 131);
+    }
+    div.tag p.type {
+        font-size: 25px;
+        color: white;
+    }
+    div.tag p {
+        color: white;
+    }
+    div.tag p sup {
+        font-size: 20px;
+    }
+    div.tag a {
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        background-color: rgb(216, 94, 94);
+        color: white;
+    }
+    /* team */
+    div.team {
+        background-color: white;
+        text-align: center;
+        padding: 50px;
+    }
+    div.team strong {
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+    div.team p {
+        color: rgb(131, 131, 131);
+    }
+    div.teamcards {
+        display: flex;
+        text-align: center;
+    }
+    div.teamcards div.tc {
+        border: 1px solid white;
+        box-shadow: 2px 2px 5px rgba(25, 25, 25, 0.45);
+        margin-left: 20px;
+        padding: 50px 50px 10px 50px;
+    }
+    div.teamcards div.tc p strong {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        color: black;
+    }
+    div.teamcards div.tc img {
+        height: 150px;
+        border-radius: 100%;
+    }
+    div.teamcards div.tc ul {
+        list-style: none;
+        display: flex;
+    }
+    div.teamcards div.tc ul svg {
+        margin: 5px;
+        color: rgb(131, 131, 131);
+    }
+    div.teamcards div.tc ul svg:hover {
+        color: rgb(199, 30, 30);
+        transition-duration: 0.3s;
+    }
+    div.socialacc {
+        margin: 35px 0px 35px 55px;
+    }
+    /* contact */
+    div.contact {
+        background-color: white;
+        text-align: center;
+        padding: 50px;
+    }
+    div.contact strong {
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+    div.contact p {
+        color: rgb(131, 131, 131);
+    }
+    div.contactcards {
+        display: flex;
+    }
+    div.contactcards div.cc {
+        text-align: center;
+        border: 1px solid white;
+        box-shadow: 2px 2px 5px rgba(25, 25, 25, 0.45);
+        padding: 30px;
+        margin-left: 50px;
+    }
+    div.contactcards div.cc svg {
+        border: 2px dotted rgb(199, 30, 30);
+        font-weight: 600;
+        border-radius: 100%;
+        color: rgb(199, 30, 30);
+        padding: 15px;
+    }
+    div.contactcards div.cc strong {
+        font-size: 17px;
+        color: rgb(131, 131, 131);
+    }
+    div.contactcards div.address {
+        text-align: center;
+        border: 1px solid white;
+        box-shadow: 2px 2px 5px rgba(25, 25, 25, 0.45);
+        padding: 30px;
+        margin-left: 50px;
+        width: 450px;
+    }
+    div.contactcards div.address svg {
+        border: 2px dotted rgb(199, 30, 30);
+        font-weight: 600;
+        border-radius: 100%;
+        color: rgb(199, 30, 30);
+        padding: 15px;
+    }
+    div.contactcards div.address strong {
+        font-size: 17px;
+        color: rgb(131, 131, 131);
+    }
+    div.location {
+        display: flex;
+        padding: 50px;
+    }
+    div.location div.form {
+        border: 1px solid white;
+        box-shadow: 2px 2px 5px rgba(25, 25, 25, 0.45);
+        margin-left: 50px;
+        padding: 10px;
+        width: 450px;
+        height: 380px;
+    }
+    input.subject,
+    input.name,
+    input.mail {
+        height: 20px;
+        float: left;
+        width: 416px;
+        margin: 10px;
+        padding: 5px;
+        border: 1px solid rgb(197, 197, 197);
+    }
+    textarea.message {
+        height: 120px;
+        float: left;
+        width: 410px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid rgb(197, 197, 197);
+    }
+    button.sendmsg {
+        margin: 10px;
+        height: 30px;
+        width: 150px;
+        font-size: 16px;
+        padding: 5px;
+        color: white;
+        background-color: rgb(199, 30, 30);
+        border: 2px solid rgb(199, 30, 30);
+        ;
+    }
+    /* footer */
+    div.footer {
+        background-color: #0c0c0c;
+        padding: 50px;
+    }
+    div.foot {
+        display: flex;
+    }
+    div.foot div.box {
+        text-align: center;
+        color: white;
+        border-top: 5px solid rgb(199, 30, 30);
+        height: 180px;
+        width: 280px;
+        background-color: #383838;
+        padding: 50px;
+    }
+    div.foot div.box strong {
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+    div.foot div.box label strong {
+        font-size: 18px;
+    }
+    div.foot div.box a {
+        text-decoration: none;
+    }
+    div.foot div.box a svg {
+        color: white;
+    }
+    div.foot div.box a svg:hover {
+        color: rgb(199, 30, 30);
+        transition-duration: 0.4s
+    }
+    div.foot div.lists {
+        color: white;
+        margin-left: 20px;
+    }
+    div.foot div.lists ul {
+        list-style: none;
+    }
+    div.foot div.lists ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    div.foot div.lists ul li a:hover {
+        color: rgb(199, 30, 30);
+    }
+    div.foot div.lists ul li svg {
+        color: rgb(199, 30, 30);
+    }
+    div.foot div.servicelists {
+        color: white;
+        margin-left: 20px;
+    }
+    div.foot div.servicelists ul {
+        list-style: none;
+    }
+    div.foot div.servicelists ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    div.foot div.servicelists ul li a:hover {
+        color: rgb(199, 30, 30);
+    }
+    div.foot div.servicelists ul li svg {
+        color: rgb(199, 30, 30);
+    }
+    div.foot div.newsletter {
+        margin-left: 20px;
+        color: white;
+    }
+    div.newsletter div.subscribe input {
+        height: 30px;
+    }
+    div.newsletter div.subscribe button {
+        height: 36px;
+        color: white;
+        border: 1px solid rgb(199, 30, 30);
+        background-color: rgb(199, 30, 30);
+    }
+    div.copyright {
+        text-align: center;
+        color: white;
+    }
+    div.copyright p.madeby {
+        font-size: 13px;
+    }
+}
+
+
+/* for mobile phones */
+
+@media screen and (max-width:500px) {
+    body {
+        margin: 0;
+        background-image: url(https://bootstrapmade.com/demo/templates/Day/assets/img/hero-bg.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    div.header {
+        background-color: #191919;
+        height: 18px;
+        padding: 5px;
+    }
+    div.header ul {
+        display: flex;
+        margin: 0px;
+    }
+    div.header ul li {
+        list-style: none;
+    }
+    div.header ul li a {
+        text-decoration: none;
+        padding-left: 5px;
+        padding-right: 10px;
+        color: rgb(116, 116, 116);
+    }
+    div.header ul li svg {
+        padding-right: 5px;
+        color: rgb(199, 30, 30);
+    }
+    div.header ul li p {
+        color: rgb(116, 116, 116);
+        display: inline;
+    }
+    div.socialmedia {
+        display: none;
+    }
+    /* mobile navigation bar */
+    div.navigation {
+        background-color: rgba(25, 25, 25, 0.95);
+        margin-top: 0px;
+        position: sticky;
+        top: 0;
+        height: 30px;
+        padding: 5px 0px 5px 0px;
+    }
+    div.navigation ul {
+        display: inline;
+    }
+    div.navigation ul li {
+        display: inline;
+        list-style: none;
+        text-transform: capitalize;
+    }
+    div.navigation ul li a {
+        text-decoration: none;
+    }
+    div.navigation ul li select {
+        display: none;
+        background-color: transparent;
+        border: none;
+        color: rgb(90, 90, 90);
+        font-size: 16px;
+        font-weight: 600;
+    }
+    div.navigation ul li select option {
+        background-color: white;
+        color: black;
+    }
+    div.navigation ul li select:hover {
+        background-color: rgb(199, 30, 30);
+        color: white;
+    }
+    div.navigation ul li select:first-child {
+        color: white;
+    }
+    a.logo {
+        font-size: 25px;
+        font-weight: 550;
+        color: white;
+        margin: 9px;
+    }
+    div.links {
+        display: none;
+    }
+    div.getstarted {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    div.getstarted h1 {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 27px;
+    }
+    div.getstarted p {
+        text-align: center;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 20px;
+        font-size: 17px;
+        color: white;
+        font-weight: 700;
+    }
+    div.getstarted a {
+        margin-left: 160px;
+        border: 2px solid white;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+    div.getstarted a:hover {
+        background-color: rgb(199, 30, 30);
+        border: 2px solid rgb(199, 30, 30);
+        transition: 0.3s;
+    }
+    /* mobile about */
+    div.about {
+        background-color: white;
+        padding: 50px 10px 20px 10px;
+    }
+    div.about strong {
+        font-size: 25px;
+        color: rgb(80, 80, 80);
+    }
+    div.about p em {
+        color: rgb(131, 131, 131);
+        font-size: 19px;
+    }
+    div.about ul {
+        list-style: none;
+        color: rgb(131, 131, 131);
+        font-size: 19px;
+    }
+    div.about ul li svg {
+        color: rgb(199, 30, 30);
+    }
+    div.about p.para {
+        color: rgb(131, 131, 131);
+        font-size: 19px;
+    }
+    div.about img {
+        height: 348px;
+    }
+    /* cards */
+    div.cards {
+        background-color: white;
+        padding: 20px 10px 10px 10px;
+        display: block;
+    }
+    div.cards div.card {
+        border: 1px solid white;
+        padding: 30px;
+        width: 330px;
+        margin: 40px;
+        box-shadow: 2px 2px 5px rgba(25, 25, 25, 0.45);
+    }
+    div.card p.number {
+        font-size: 20px;
+        font-weight: 800;
+        color: rgb(199, 30, 30);
+    }
+    div.card:hover p.number {
+        color: white;
+    }
+    div.card p.heading {
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
+    div.card:hover p.heading {
+        color: white;
+    }
+    div.card p.text {
+        color: rgb(131, 131, 131);
+    }
+    div.card:hover p.text {
+        color: white;
+    }
+    div.card:hover {
+        background-color: rgb(211, 56, 56);
+        transition: 0.4s;
+    }
+    div.images {
+        background-color: rgb(187, 187, 187);
+    }
+    div.images img {
+        height: 30px;
+        margin: 20px 0px 20px 60px;
+        opacity: 0.3;
+    }
+    div.images img:hover {
+        opacity: 1;
+        transition-duration: 0.4s;
+    }
+    div.break {
+        background-color: white;
+    }
+    /*mobile services */
+    div.services {
+        background-color: white;
+        text-align: center;
+        padding: 35px;
+    }
+    div.services strong {
+        font-size: 27px;
+        text-transform: uppercase;
+        z-index: 1;
+    }
+    div.services p {
+        color: rgb(131, 131, 131);
+    }
+    div.servicecards {
+        background-color: white;
+    }
+    div.servicecards div.rowone {
+        display: block;
+        padding: 10px;
+    }
+    div.rowone {
+        text-align: center;
+    }
+    div.rowone div.card {
+        border: 1px solid white;
+        width: 330px;
+        height: 160px;
+        margin: 0px 15px 10px 15px;
+        padding: 50px;
+        box-shadow: 2px 2px 5px rgba(25, 25, 25, 0.45);
+    }
+    div.rowone div.card a {
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    div.rowone div.card svg {
+        background-color: rgb(199, 30, 30);
+        color: white;
+        height: 30px;
+        width: 30px;
+        padding: 10px;
+    }
+    div.rowone div.card p {
+        color: rgb(131, 131, 131);
+    }
+    div.rowone div.card:hover p {
+        color: white;
+    }
+    div.rowone div.card:hover a {
+        color: white;
+    }
+    div.servicecards div.rowtwo {
+        display: block;
+        padding: 10px;
+    }
+    div.rowtwo {
+        text-align: center;
+        padding-top: 30px;
+    }
+    div.rowtwo div.card {
+        border: 1px solid white;
+        width: 330px;
+        height: 160px;
+        margin: 0px 15px 10px 15px;
+        padding: 50px;
+        box-shadow: 2px 2px 5px rgba(25, 25, 25, 0.45);
+    }
+    div.rowtwo div.card a {
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    div.rowtwo div.card svg {
+        background-color: rgb(199, 30, 30);
+        color: white;
+        height: 30px;
+        width: 30px;
+        padding: 10px;
+    }
+    div.rowtwo div.card p {
+        color: rgb(131, 131, 131);
+    }
+    div.rowtwo div.card:hover p {
+        color: white;
+    }
+    div.rowtwo div.card:hover a {
+        color: white;
+    }
+    div.action {
+        padding: 60px;
+        text-align: center;
+    }
+    div.action h3 {
+        font-size: 30px;
+        color: white;
+    }
+    div.action p {
+        font-size: 16px;
+        color: white;
+    }
+    div.action a {
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 2px solid white;
+        font-size: 15px;
+        padding: 8px;
+        color: white;
+        font-weight: 600;
+    }
+    /*mobile portfolio */
+    div.portfolio {
+        background-color: white;
+        text-align: center;
+        padding: 50px;
+    }
+    div.portfolio strong {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    div.portfolio p {
+        color: rgb(131, 131, 131);
+    }
+    div.portfolio ul {
+        list-style: none;
+        text-align: center;
+    }
+    div.portfolio ul li {
+        display: inline;
+        padding: 2px;
+        font-weight: 600;
+        color: rgb(104, 104, 104);
+    }
+    div.portfolio ul li:first-child {
+        color: rgb(199, 30, 30);
+    }
+    div.portimg img.img1 {
+        height: 300px;
+    }
+    div.portimg img.img2 {
+        height: 200px;
+        margin-top: 15px;
+    }
+    div.portimg img.img3 {
+        height: 170px;
+        margin-top: 15px;
+    }
+    div.portimg img.img4 {
+        height: 450px;
+        margin-top: 15px;
+    }
+    div.portimg img.img5 {
+        height: 200px;
+        margin-top: 15px;
+    }
+    div.portimg img.img6 {
+        height: 450px;
+        margin-top: 15px;
+    }
+    div.portimg img.img7 {
+        height: 196px;
+        margin-top: 15px;
+    }
+    div.portimg img.img8 {
+        height: 202px;
+        margin-top: 15px;
+    }
+    /*mobile pricing */
+    div.pricing {
+        background-color: white;
+        text-align: center;
+        padding: 50px;
+    }
+    div.pricing strong {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    div.pricing p {
+        color: rgb(131, 131, 131);
+    }
+    div.pricetags {
+        display: block;
+    }
+    div.tags {
+        border: 1px solid rgb(247, 245, 245);
+        background-color: rgb(247, 245, 245);
+        padding: 20px 70px 70px 70px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    div.tag {
+        border: 1px solid rgb(199, 30, 30);
+        background-color: rgb(199, 30, 30);
+        padding: 20px 70px 70px 70px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    div.tags p.type {
+        font-size: 25px;
+    }
+    div.tags p sup {
+        color: rgb(199, 30, 30);
+        font-size: 20px;
+    }
+    div.tags p strong {
+        color: rgb(199, 30, 30);
+    }
+    div.tags a {
+        text-decoration: none;
+        color: white;
+        background-color: rgb(199, 30, 30);
+        padding: 10px 20px 10px 20px;
+    }
+    div.tags p del {
+        color: rgb(131, 131, 131);
+    }
+    div.tag p.type {
+        font-size: 25px;
+        color: white;
+    }
+    div.tag p {
+        color: white;
+    }
+    div.tag p sup {
+        font-size: 20px;
+    }
+    div.tag a {
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        background-color: rgb(216, 94, 94);
+        color: white;
+    }
+    /* team */
+    div.team {
+        background-color: white;
+        text-align: center;
+        padding: 40px;
+    }
+    div.team strong {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    div.team p {
+        color: rgb(131, 131, 131);
+    }
+    div.teamcards {
+        display: block;
+        text-align: center;
+    }
+    div.teamcards div.tc {
+        border: 1px solid white;
+        box-shadow: 2px 2px 5px rgba(25, 25, 25, 0.45);
+        padding: 50px 50px 10px 50px;
+        margin-bottom: 15px;
+    }
+    div.teamcards div.tc p strong {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        color: black;
+    }
+    div.teamcards div.tc img {
+        height: 150px;
+        border-radius: 100%;
+    }
+    div.teamcards div.tc ul {
+        list-style: none;
+        display: flex;
+    }
+    div.teamcards div.tc ul svg {
+        margin: 5px;
+        color: rgb(131, 131, 131);
+    }
+    div.teamcards div.tc ul svg:hover {
+        color: rgb(199, 30, 30);
+        transition-duration: 0.4s;
+    }
+    div.socialacc {
+        margin: 60px;
+    }
+    /*mobile contact */
+    div.contact {
+        background-color: white;
+        text-align: center;
+        padding: 35px;
+    }
+    div.contact strong {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    div.contact p {
+        color: rgb(131, 131, 131);
+    }
+    div.contactcards {
+        display: block;
+    }
+    div.contactcards div.cc {
+        text-align: center;
+        border: 1px solid white;
+        box-shadow: 2px 2px 5px rgba(25, 25, 25, 0.45);
+        padding: 30px;
+        margin-bottom: 15px;
+    }
+    div.contactcards div.cc svg {
+        border: 2px dotted rgb(199, 30, 30);
+        font-weight: 600;
+        border-radius: 100%;
+        color: rgb(199, 30, 30);
+        padding: 15px;
+    }
+    div.contactcards div.cc strong {
+        font-size: 17px;
+        color: rgb(131, 131, 131);
+    }
+    div.contactcards div.address {
+        text-align: center;
+        border: 1px solid white;
+        box-shadow: 2px 2px 5px rgba(25, 25, 25, 0.45);
+        padding: 30px;
+        margin-bottom: 15px;
+    }
+    div.contactcards div.address svg {
+        border: 2px dotted rgb(199, 30, 30);
+        font-weight: 600;
+        border-radius: 100%;
+        color: rgb(199, 30, 30);
+        padding: 15px;
+    }
+    div.contactcards div.address strong {
+        font-size: 17px;
+        color: rgb(131, 131, 131);
+    }
+    div.location {
+        display: block;
+    }
+    div.location iframe {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: 250px;
+        width: 408px;
+    }
+    div.location div.form {
+        border: 1px solid white;
+        box-shadow: 2px 2px 5px rgba(25, 25, 25, 0.45);
+        padding: 10px;
+    }
+    input.subject,
+    input.name,
+    input.mail {
+        height: 20px;
+        float: left;
+        width: 360px;
+        margin: 10px;
+        padding: 5px;
+        border: 1px solid rgb(197, 197, 197);
+    }
+    textarea.message {
+        height: 120px;
+        float: left;
+        width: 350px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid rgb(197, 197, 197);
+    }
+    button.sendmsg {
+        margin: 10px;
+        height: 30px;
+        width: 150px;
+        font-size: 16px;
+        padding: 5px;
+        color: white;
+        background-color: rgb(199, 30, 30);
+        border: 2px solid rgb(199, 30, 30);
+        ;
+    }
+    /*mobile footer */
+    div.footer {
+        background-color: #0c0c0c;
+        padding: 50px;
+    }
+    div.foot {
+        display: block;
+    }
+    div.foot div.box {
+        text-align: center;
+        color: white;
+        border-top: 5px solid rgb(199, 30, 30);
+        height: 200px;
+        width: 380px;
+        background-color: #383838;
+    }
+    div.foot div.box strong {
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+    div.foot div.box label strong {
+        font-size: 18px;
+    }
+    div.foot div.box a svg {
+        color: white;
+    }
+    div.foot div.box a svg:hover {
+        color: rgb(199, 30, 30);
+        transition-duration: 0.4s
+    }
+    div.foot div.lists {
+        margin-top: 15px;
+        color: white;
+    }
+    div.foot div.lists ul {
+        list-style: none;
+    }
+    div.foot div.lists ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    div.foot div.lists ul li a:hover {
+        color: rgb(199, 30, 30);
+    }
+    div.foot div.lists ul li svg {
+        color: rgb(199, 30, 30);
+    }
+    div.foot div.servicelists {
+        color: white;
+    }
+    div.foot div.servicelists ul {
+        list-style: none;
+    }
+    div.foot div.servicelists ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    div.foot div.servicelists ul li a:hover {
+        color: rgb(199, 30, 30);
+    }
+    div.foot div.servicelists ul li svg {
+        color: rgb(199, 30, 30);
+    }
+    div.foot div.newsletter {
+        margin-left: 20px;
+        color: white;
+    }
+    div.newsletter div.subscribe input {
+        height: 30px;
+    }
+    div.newsletter div.subscribe button {
+        height: 36px;
+        color: white;
+        border: 1px solid rgb(199, 30, 30);
+        background-color: rgb(199, 30, 30);
+    }
+    div.copyright {
+        text-align: center;
+        color: white;
+    }
+    div.copyright p.madeby {
+        font-size: 13px;
+    }
+}
